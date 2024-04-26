@@ -29,7 +29,7 @@ namespace Questao5.Infrastructure.Sqlite
                                "CHECK(ativo in (0, 1)) " +
                                ");");
 
-            connection.Execute("Drop TABLE movimento");
+            //connection.Execute("Drop TABLE movimento");
 
             connection.Execute("CREATE TABLE movimento ( " +
                 "idmovimento TEXT(37) PRIMARY KEY," +
